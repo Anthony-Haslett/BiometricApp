@@ -13,7 +13,6 @@ import androidx.fragment.app.FragmentActivity;
 import java.util.concurrent.Executor;
 
 public class OnDeviceAuth {
-//    public OnDeviceAuth() {}
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     public BiometricPrompt.PromptInfo setAllowedAuthenticators() {

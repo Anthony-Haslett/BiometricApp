@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Biometric calls
+        // Biometric  calls
         OnDeviceAuth deviceAuth = new OnDeviceAuth();
         BiometricPrompt.PromptInfo promptInfo = deviceAuth.setAllowedAuthenticators();
         BiometricPrompt biometricPrompt = deviceAuth.biometricPrompt(this);
